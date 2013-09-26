@@ -24,4 +24,4 @@ Example
 
 Integration Instruction
 =======================
-Copy `UIPillsView.h`, `UIPillsView.m`, `UILabel+dynamicSizeMeWidth.h` and `UILabel+dynamicSizeMeWidth.m`  files to your project and include `UIPillsView.h` in your class that you will be creating a `UIPillsView` view from.
+Copy `UIPillsView.h`, `UIPillsView.m`, `UILabel+dynamicSizeMeWidth.h` and `UILabel+dynamicSizeMeWidth.m` files to your project and include `UIPillsView.h` in the class that you will be creating a `UIPillsView` view from.
