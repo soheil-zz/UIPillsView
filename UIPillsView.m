@@ -48,7 +48,7 @@
         w += pill.frame.size.width + self.pillSpacingHorizontal;
         if (w > self.frame.size.width) {
             w = 0;
-            h += self.pillHeight + self.self.pillSpacingVertical;
+            h += self.pillHeight + self.pillSpacingVertical;
             CGRect frame = pill.frame;
             frame.origin.x = w;
             frame.origin.y = h;
@@ -58,7 +58,7 @@
         [self addSubview:pill];
     }
     CGSize size = self.frame.size;
-    size.height = h + self.pillHeight + self.self.pillHeight;
+    size.height = h + self.pillHeight;
     self.contentSize = size;
 }
 
